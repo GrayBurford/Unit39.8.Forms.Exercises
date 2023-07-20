@@ -1,0 +1,31 @@
+.TodoList {
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+
+.TodoList-form {
+    width: 100%;
+}
+
+.TodoList-todos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* 
+.TodoList-todos button {
+    padding: 1px;
+    margin-left: 25px;
+    text-align: center;
+} */

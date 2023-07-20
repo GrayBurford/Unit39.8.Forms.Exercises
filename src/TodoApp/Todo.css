@@ -1,0 +1,11 @@
+
+.Todo {
+    margin: 10px;
+    margin-left: auto;
+}
+
+.Todo-remove {
+    margin-left: auto;
+    background-color: red;
+    color: black;
+}

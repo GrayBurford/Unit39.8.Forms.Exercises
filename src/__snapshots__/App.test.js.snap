@@ -5,92 +5,38 @@ exports[`matches snapshot 1`] = `
   <div
     class="App"
   >
+    <h1>
+      Todo List with React
+    </h1>
     <div
-      class="BoxList"
+      class="TodoList"
     >
-      <h1>
-        BoxList App
-      </h1>
-      <form
-        class="NewBoxForm"
+      <div
+        class="TodoList-form"
       >
-        <div>
+        <form
+          class="NewTodoForm"
+        >
           <label
-            for="backgroundColor"
+            for="task"
           >
-            Background Color
-          </label>
-          <select
-            id="backgroundColor"
-            name="backgroundColor"
-          >
-            <option
-              value=""
-            >
-              -- choose a color --
-            </option>
-            <option
-              value="black"
-            >
-              Black
-            </option>
-            <option
-              value="pink"
-            >
-              Pink
-            </option>
-            <option
-              value="blue"
-            >
-              Blue
-            </option>
-            <option
-              value="purple"
-            >
-              Purple
-            </option>
-          </select>
-        </div>
-        <div>
-          <label
-            for="height"
-          >
-            Height
+            Add task
           </label>
           <input
-            id="height"
-            max="300"
-            min="50"
-            name="height"
-            placeholder="Box Height"
-            step="25"
-            type="range"
-            value="50"
+            id="task"
+            name="task"
+            placeholder="type to-do here"
+            type="text"
+            value=""
           />
-           (50)
-        </div>
-        <div>
-          <label
-            for="width"
-          >
-            Width
-          </label>
-          <input
-            id="width"
-            max="300"
-            min="50"
-            name="width"
-            placeholder="Box Width"
-            step="25"
-            type="range"
-            value="50"
-          />
-           (50)
-        </div>
-        <button>
-          Add Box
-        </button>
-      </form>
+          <button>
+            Submit To-Do
+          </button>
+        </form>
+      </div>
+      <div
+        class="TodoList-todos"
+      />
     </div>
   </div>
 </DocumentFragment>
