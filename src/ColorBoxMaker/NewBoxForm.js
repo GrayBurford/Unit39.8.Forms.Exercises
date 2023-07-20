@@ -26,7 +26,7 @@ function NewBoxForm ({ addBox }) {
     return (
         <form className="NewBoxForm" onSubmit={handleSubmit}>
             <div>
-                <label htmlFor="backgroundColor">Background Color: </label>
+                <label htmlFor="backgroundColor">Background Color</label>
                 <select id="backgroundColor" name="backgroundColor" onChange={handleChange}>
                     <option value="">-- choose a color --</option>
                     <option value="black">Black</option>
@@ -37,7 +37,7 @@ function NewBoxForm ({ addBox }) {
             </div>
 
             <div>
-                <label htmlFor="height">Height: </label>
+                <label htmlFor="height">Height</label>
                 <input
                     id="height"
                     name="height"
@@ -52,7 +52,7 @@ function NewBoxForm ({ addBox }) {
             </div>
 
             <div>
-                <label htmlFor="width">Width: </label>
+                <label htmlFor="width">Width</label>
                 <input
                     id="width"
                     name="width"

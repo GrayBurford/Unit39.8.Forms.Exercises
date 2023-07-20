@@ -21,7 +21,7 @@ function BoxList () {
 
     return (
         <div className="BoxList">
-            <h1>Testing my BoxList render</h1>
+            <h1>BoxList App</h1>
 
             <NewBoxForm addBox={addBox} />
 
